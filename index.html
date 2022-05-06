@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <script src="app.js" defer></script>
     <title>Etch-a-Sketch</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="header">
-        <h1>Etch-a-Sketch</h1>
+      <h1>Etch-a-Sketch</h1>
     </div>
-    
+    <div class="border-container">
+      <div class="container"></div>
 
-    <div class="container">
+      <div class="features">
+        <input
+          id="color-picker"
+          class="color-picker"
+          type="color"
+          value="#ff0080"
+        />
+        <button class="button" id="rainbow-btn">Rainbow</button>
+        <button class="button" id="pixel-btn"># of pixels</button>
+        <button class="button" id="reset-btn">Reset</button>
+      </div>
     </div>
-    <input class='color-picker' type="color">
-</body>
+  </body>
 </html>
+
